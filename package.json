@@ -1,0 +1,21 @@
+{
+  "name": "vk-music",
+  "main": "./lib/vk-music",
+  "version": "0.0.1",
+  "description": "VK music player",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "vk-music:open"
+  },
+  "repository": "https://github.com/selat/atom-vk-music",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "https": "~1.0.0",
+    "vk-io": "~2.1.7",
+    "form-data": "~2.1.1"
+  }
+}

@@ -1,0 +1,22 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'vk-music'
+      'submenu': [
+        {
+          'label': 'Open'
+          'command': 'vk-music:open'
+        },
+        {
+          'label': 'Pause'
+          'command': 'vk-music:pause'
+        },
+        {
+          'label': 'Resume'
+          'command': 'vk-music:resume'
+        }
+      ]
+    ]
+  }
+]
