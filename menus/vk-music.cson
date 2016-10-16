@@ -15,6 +15,14 @@
         {
           'label': 'Resume'
           'command': 'vk-music:resume'
+        },
+        {
+          'label': 'Next song'
+          'command': 'vk-music:next'
+        },
+        {
+          'label': 'Previous song'
+          'command': 'vk-music:prev'
         }
       ]
     ]

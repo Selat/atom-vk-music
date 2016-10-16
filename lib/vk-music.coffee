@@ -32,6 +32,8 @@ module.exports = VkMusic =
     @subscriptions.add atom.commands.add 'atom-workspace', 'vk-music:open': => @open()
     @subscriptions.add atom.commands.add 'atom-workspace', 'vk-music:pause': => @pause()
     @subscriptions.add atom.commands.add 'atom-workspace', 'vk-music:resume': => @resume()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'vk-music:next': => @next()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'vk-music:prev': => @prev()
 
   deactivate: ->
     @subscriptions.dispose()
@@ -53,3 +55,9 @@ module.exports = VkMusic =
 
   resume: ->
     @vkMusicView.resume()
+
+  next: ->
+    @vkMusicView.next()
+
+  prev: ->
+    @vkMusicView.prev()
